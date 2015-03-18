@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "openlss/lib-array2xml": "0.0.9.*"
     },
     "autoload": {
         "psr-4": {
