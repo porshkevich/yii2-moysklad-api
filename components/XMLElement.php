@@ -100,7 +100,7 @@ class XMLElement {
 	public function toXml() {
 		$data = $this->toData();
 
-		return \LSS\Array2XML::createXML($this->name, $data);
+		return \LSS\Array2XML::createXML($this->name, $data)->saveXML();
 	}
 
 }
